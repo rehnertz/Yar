@@ -1,0 +1,2 @@
+ENTITY
+tag = Tag.Killer

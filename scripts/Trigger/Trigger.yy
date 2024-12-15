@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Trigger",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Trigger",
+  "parent":{
+    "name":"Yar",
+    "path":"Yar.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
