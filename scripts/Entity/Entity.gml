@@ -259,8 +259,8 @@ function entity_translate_orthogonal(dx, dy, local = false) {
         return int64(0)
     }
     
-    var gdx = x - x0
-    var gdy = y - y0
+    var gdx = dx - (x - x0)
+    var gdy = dy - (y - y0)
     // Convert actual global displacement to local.
     var ldx = dot_product(down_y, -down_x, gdx, gdy)
     var ldy = dot_product(down_x, down_y, gdx, gdy)
